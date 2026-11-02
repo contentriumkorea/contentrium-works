@@ -2,7 +2,7 @@
 
 <h1 align="center">Contentrium Works</h1>
 <p align="center"><strong>작업은 정리하고, 다음 사람은 이어서.</strong><br>영상·문서·기획·지원사업부터 개발까지, 팀의 프로젝트 파일과 작업 기록을 관리하는 Codex 스킬입니다.</p>
-<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.2-16785e" alt="Version 1.0.2"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
+<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.3-16785e" alt="Version 1.0.3"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
 <p align="center"><a href="#빠르게-시작하기">설치하기</a> · <a href="https://github.com/contentriumkorea/contentrium-works/releases/latest/download/contentrium-works.zip">다운로드</a> · <a href="#사용-모습">사용 모습</a> · <a href="docs/installation.md">상세 안내</a></p>
 
 ---
@@ -64,6 +64,12 @@
 ```
 
 설치와 상시 검토 설정 후에는 별도로 스킬 이름을 매번 부를 필요가 없습니다. 단순 질문에는 불필요한 폴더·문서를 만들지 않습니다.
+
+## 공용 도구 사용
+
+웹 검색·웹페이지 탐색은 **Aside**, 데스크톱 앱 직접 조작은 **agent-desktop**을 우선 사용합니다. 필요한 스킬과 실행 도구가 없으면 출처·설치 범위를 설명하고 승인을 받은 뒤 설치합니다. Contentrium Works를 설치하는 것만으로 두 도구가 함께 설치되지는 않습니다.
+
+**헤드리스·비전면 조작이 기본**입니다. 실제 마우스·키보드·창 포커스가 필요한 경우에는 제한을 알리고 명시적 허락을 기다립니다. 개인 Telegram 계정이나 수신자 설정은 포함하지 않습니다. [도구별 절차](references/dependencies.md)
 
 ## 적용 범위와 제한
 
