@@ -2,7 +2,7 @@
 
 <h1 align="center">Contentrium Works</h1>
 <p align="center"><strong>작업은 정리하고, 다음 사람은 이어서.</strong><br>영상·문서·기획·지원사업부터 개발까지, 팀의 프로젝트 파일과 작업 기록을 관리하는 Codex 스킬입니다.</p>
-<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.1-16785e" alt="Version 1.0.1"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
+<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.2-16785e" alt="Version 1.0.2"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
 <p align="center"><a href="#빠르게-시작하기">설치하기</a> · <a href="https://github.com/contentriumkorea/contentrium-works/releases/latest/download/contentrium-works.zip">다운로드</a> · <a href="#사용-모습">사용 모습</a> · <a href="docs/installation.md">상세 안내</a></p>
 
 ---
@@ -89,6 +89,6 @@ Contentrium Works is a Codex skill for shared project organization, approval-awa
 
 ---
 
-<p align="center"><strong>콘텐츠리움 · Contentrium</strong><br><a href="LICENSE">라이선스 안내</a> · <a href="https://github.com/contentriumkorea/contentrium-works/releases/latest">Latest release</a></p>
-<sub>Copyright © 2026 Contentrium. 별도 오픈소스 라이선스는 아직 지정하지 않았습니다.</sub>
+<p align="center"><strong>콘텐츠리움 · Contentrium</strong><br><a href="LICENSE">MIT License</a> · <a href="https://github.com/contentriumkorea/contentrium-works/releases/latest">Latest release</a></p>
+<sub>Copyright © 2026 Contentrium. MIT License.</sub>
 <p align="center"><a href="https://contentrium.com/"><img src="docs/images/home.svg" alt="콘텐츠리움 홈페이지 바로가기" width="260" height="52"></a></p>
