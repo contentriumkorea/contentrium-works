@@ -2,7 +2,7 @@
 
 <h1 align="center">Contentrium Works</h1>
 <p align="center"><strong>작업은 정리하고, 다음 사람은 이어서.</strong><br>영상·문서·기획·지원사업부터 개발까지, 팀의 프로젝트 파일과 작업 기록을 관리하는 Codex 스킬입니다.</p>
-<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.3-16785e" alt="Version 1.0.3"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
+<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.5-16785e" alt="Version 1.0.5"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
 <p align="center"><a href="#빠르게-시작하기">설치하기</a> · <a href="https://github.com/contentriumkorea/contentrium-works/releases/latest/download/contentrium-works.zip">다운로드</a> · <a href="#사용-모습">사용 모습</a> · <a href="docs/installation.md">상세 안내</a></p>
 
 ---
@@ -40,7 +40,7 @@
 
 <details><summary><strong>추가 예시 보기</strong></summary>
 
-- 영상: 기존 Footage·Sequence·Export를 사용하고 HyperFrames 제작 파일과 렌더링 결과를 구분합니다.
+- 영상: 문서와 제작 자료가 함께 쌓일 것을 고려합니다. 기존 구조를 우선하고, 필요한 경우 서류 안에 계약·기획·촬영 운영을 묶는 안을 제안합니다. 제작 자료는 기존 Footage·Sequence·Export 등에서 관리하며 빈 폴더를 미리 만들지 않습니다.
 - 지원사업: 적합한 폴더가 없으면 공고·신청·증빙 등의 최소 분류를 제안합니다.
 - 외부 이미지: 복사 여부를 확인하고 승인 후 프로젝트 안의 복사본을 실제 작업에 사용합니다.
 - 경로 오류: 폴더가 없다고 새 프로젝트를 만들지 않고 경로부터 확인합니다.
@@ -64,6 +64,20 @@
 ```
 
 설치와 상시 검토 설정 후에는 별도로 스킬 이름을 매번 부를 필요가 없습니다. 단순 질문에는 불필요한 폴더·문서를 만들지 않습니다.
+
+## 최신안과 이전안 관리
+
+새 결과물 묶음의 저장·검증이 성공하면 같은 결과물의 기존안을 해당 폴더 아래 `이전안`으로 보관합니다. 통상 보관은 매번 재승인을 묻지 않습니다. Word와 대응 PDF처럼 함께 쓰는 최신 형식은 묶음으로 남깁니다.
+
+기존 파일은 원래 이름과 내용으로 보존합니다. 동명 충돌은 내용을 확인하고 별도 하위 폴더로 분리하며 삭제·덮어쓰기로 처리하지 않습니다. 생성 실패나 검증 미완료이면 기존안을 옮기지 않습니다. 원본·참고·소스·설정·연결 자산은 대상에서 제외하고 제작 파일은 의존성을 확인합니다. 이동 후 보존 상태와 프로젝트 안내·인계 링크를 갱신합니다.
+
+이 규칙은 현재 작업의 결과물 버전 관리에 적용되며 과거 프로젝트 전체의 일괄 정리나 폴더 재편 승인이 아닙니다. 별도 사용자 보관 지시가 우선합니다. [상세 기준](references/files.md#결과물-버전-보관)
+
+## 영상 프로젝트의 분류
+
+최상위는 자료의 큰 성격으로 나누고, 문서의 업무별 분류는 `서류` 같은 문서용 폴더 안에 묶는 안을 검토합니다. 예를 들어 `서류/계약 및 기획`, `서류/촬영 운영`, `서류/행사 참고자료`가 가능합니다. 기존 `문서`·`etc` 등이 같은 역할이면 재사용합니다.
+
+예시 이름·깊이·구조를 강제하지 않습니다. 실제 자료에 필요한 폴더만 승인 범위에서 만들며, 비영상 프로젝트에 영상 폴더를 적용하지 않습니다. 기존 최상위 폴더를 재분류할 때는 승인·원본 보존·연결 검증과 기록 갱신 절차를 따릅니다. [상세 기준](references/files.md#영상-프로젝트의-문서와-제작-자료-분류)
 
 ## 공용 도구 사용
 
