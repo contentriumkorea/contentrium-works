@@ -2,7 +2,7 @@
 
 <h1 align="center">Contentrium Works</h1>
 <p align="center"><strong>작업은 정리하고, 다음 사람은 이어서.</strong><br>영상·문서·기획·지원사업부터 개발까지, 팀의 프로젝트 파일과 작업 기록을 관리하는 Codex 스킬입니다.</p>
-<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.6-16785e" alt="Version 1.0.6"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
+<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.7-16785e" alt="Version 1.0.7"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
 <p align="center"><a href="#빠르게-시작하기">설치하기</a> · <a href="https://github.com/contentriumkorea/contentrium-works/releases/latest/download/contentrium-works.zip">다운로드</a> · <a href="#사용-모습">사용 모습</a> · <a href="docs/installation.md">상세 안내</a></p>
 
 ---
@@ -44,6 +44,7 @@
 - 지원사업: 적합한 폴더가 없으면 공고·신청·증빙 등의 최소 분류를 제안합니다.
 - 외부 이미지: 복사 여부를 확인하고 승인 후 프로젝트 안의 복사본을 실제 작업에 사용합니다.
 - 경로 오류: 폴더가 없다고 새 프로젝트를 만들지 않고 경로부터 확인합니다.
+- AI 작업 기록: `AI Worklog/대화명/`을 공통 기본 위치로 제안하고 사용 도구는 기록 안에 남깁니다. 기존 기록 폴더는 승인 없이 이동하거나 통합하지 않습니다.
 - 보관 후 재개: 현재 프로젝트 경로에서 인계 기록과 실제 파일을 확인합니다.
 
 </details>
