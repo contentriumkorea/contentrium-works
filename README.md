@@ -2,7 +2,7 @@
 
 <h1 align="center">Contentrium Works</h1>
 <p align="center"><strong>작업은 정리하고, 다음 사람은 이어서.</strong><br>영상·문서·기획·지원사업부터 개발까지, 팀의 프로젝트 파일과 작업 기록을 관리하는 Codex 스킬입니다.</p>
-<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.9-16785e" alt="Version 1.0.9"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
+<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.10-16785e" alt="Version 1.0.10"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
 <p align="center"><a href="#빠르게-시작하기">설치하기</a> · <a href="https://github.com/contentriumkorea/contentrium-works/releases/latest/download/contentrium-works.zip">다운로드</a> · <a href="#사용-모습">사용 모습</a> · <a href="docs/installation.md">상세 안내</a></p>
 
 ---
@@ -82,7 +82,7 @@
 
 ## 공용 도구 사용
 
-웹 검색·브라우저·데스크톱 도구는 사용자 지정과 현재 환경에 맞게 선택합니다. 특정 제품을 강제하지 않으며 개인 도구 설정은 각자의 지침에서 관리합니다. 필요한 도구 설치는 출처·범위를 설명하고 승인받은 뒤 진행합니다.
+Aside와 agent-desktop을 공통 필수 도구로 설치·유지합니다. 웹 검색·탐색은 Aside, 데스크톱 UI 직접 조작은 agent-desktop 헤드리스를 우선 사용합니다. Works 설치·업데이트 시 스킬과 실행 도구를 각각 확인하고, 누락 구성요소는 공식 출처에서 별도 재승인 없이 설치·검증합니다. ZIP 복사만으로 자동 설치되지는 않습니다. 개인 경로·계정 설정은 포함하지 않으며 전용 API·CLI·파일 조작과 사용자 지정 예외를 유지합니다.
 
 **헤드리스 UI 조작도 앱에 따라 포커스를 가져갈 수 있습니다.** 전경 창과 대상 창을 확인하고, 포커스를 보장할 수 없는 백그라운드 조작은 보내기 전에 건너뜁니다. 포커스 보존이 확인된 전용 API나 파일 조작을 우선합니다. 실제 마우스·키보드·창 포커스가 필요한 경우에는 제한을 알리고 명시적 허락을 기다립니다. 개인 Telegram 계정이나 수신자 설정은 포함하지 않습니다. [포커스 보호 절차](references/dependencies.md)
 
@@ -90,14 +90,14 @@
 
 OS 전용 실행 파일 없이 동일한 문서 기반 ZIP을 사용합니다. 실제 설치 위치는 각 환경에서 확인하고, 공유 파일명·경로 인용·상대 링크·수신 PC의 자산 연결을 검증합니다. 개인 도구 설정은 각자 유지합니다.
 
-**Mac 실기기 검증은 아직 수행하지 않았습니다.** v1.0.9의 검증은 패키지 정적 검사와 Windows 압축 해제·파일 비교입니다. macOS 설치·새 대화 인식·파일 작업·포커스 보호와 Windows↔macOS Dropbox 왕복은 미검증이며 완전 호환을 보장하지 않습니다. [설치 절차와 검증 범위](references/installation.md)
+**Mac 실기기 검증은 아직 수행하지 않았습니다.** v1.0.10의 검증은 패키지 정적 검사와 Windows 압축 해제·파일 비교입니다. macOS 설치·새 대화 인식·파일 작업·포커스 보호와 Windows↔macOS Dropbox 왕복은 미검증이며 완전 호환을 보장하지 않습니다. [설치 절차와 검증 범위](references/installation.md)
 
 ## 적용 범위와 제한
 
 - 영상·문서·기획·지원사업·견적·스토리보드·개발 등 다양한 프로젝트에 적용합니다. 영상 폴더 구조를 모든 작업에 강제하지 않습니다.
 - 기존 경로를 조회하고 유사 이름과 외부 참조를 확인합니다. Dropbox 같은 공유 폴더의 동시 편집은 담당자·반영 절차가 필요합니다.
 - 파일 잠금, 동기화 서비스, 모든 메시지의 실시간 백업은 제공하지 않습니다. 모든 요청의 자동 실행이나 PC 간 충돌 방지를 기술적으로 보장하지 않습니다.
-- 실제 제작은 해당 전문 스킬·도구로 진행합니다. 필요한 외부 도구의 설치는 출처와 범위를 안내하고 승인받습니다.
+- 실제 제작은 해당 전문 스킬·도구로 진행합니다. Aside·agent-desktop의 통상 설치는 상시 승인 범위이며 기타 도구 설치는 기존 승인 범위를 확인합니다.
 - 새 세션에서 스킬과 개인 지침의 인식을 확인해야 합니다. 직원 PC별 동작과 실제 Dropbox 다중 PC 동시 작업은 검증되지 않았습니다.
 
 <details><summary><strong>상세 안내와 검증 범위</strong></summary>
