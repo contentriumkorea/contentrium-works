@@ -2,7 +2,7 @@
 
 <h1 align="center">Contentrium Works</h1>
 <p align="center"><strong>작업은 정리하고, 다음 사람은 이어서.</strong><br>영상·문서·기획·지원사업부터 개발까지, 팀의 프로젝트 파일과 작업 기록을 관리하는 Codex 스킬입니다.</p>
-<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.8-16785e" alt="Version 1.0.8"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
+<p align="center"><a href="https://github.com/contentriumkorea/contentrium-works/releases/latest"><img src="https://img.shields.io/badge/version-1.0.9-16785e" alt="Version 1.0.9"></a> <a href="docs/installation.md"><img src="https://img.shields.io/badge/Codex-Skill-153b40" alt="Codex Skill"></a></p>
 <p align="center"><a href="#빠르게-시작하기">설치하기</a> · <a href="https://github.com/contentriumkorea/contentrium-works/releases/latest/download/contentrium-works.zip">다운로드</a> · <a href="#사용-모습">사용 모습</a> · <a href="docs/installation.md">상세 안내</a></p>
 
 ---
@@ -85,6 +85,12 @@
 웹 검색·브라우저·데스크톱 도구는 사용자 지정과 현재 환경에 맞게 선택합니다. 특정 제품을 강제하지 않으며 개인 도구 설정은 각자의 지침에서 관리합니다. 필요한 도구 설치는 출처·범위를 설명하고 승인받은 뒤 진행합니다.
 
 **헤드리스 UI 조작도 앱에 따라 포커스를 가져갈 수 있습니다.** 전경 창과 대상 창을 확인하고, 포커스를 보장할 수 없는 백그라운드 조작은 보내기 전에 건너뜁니다. 포커스 보존이 확인된 전용 API나 파일 조작을 우선합니다. 실제 마우스·키보드·창 포커스가 필요한 경우에는 제한을 알리고 명시적 허락을 기다립니다. 개인 Telegram 계정이나 수신자 설정은 포함하지 않습니다. [포커스 보호 절차](references/dependencies.md)
+
+## Windows·macOS 공통 사용
+
+OS 전용 실행 파일 없이 동일한 문서 기반 ZIP을 사용합니다. 실제 설치 위치는 각 환경에서 확인하고, 공유 파일명·경로 인용·상대 링크·수신 PC의 자산 연결을 검증합니다. 개인 도구 설정은 각자 유지합니다.
+
+**Mac 실기기 검증은 아직 수행하지 않았습니다.** v1.0.9의 검증은 패키지 정적 검사와 Windows 압축 해제·파일 비교입니다. macOS 설치·새 대화 인식·파일 작업·포커스 보호와 Windows↔macOS Dropbox 왕복은 미검증이며 완전 호환을 보장하지 않습니다. [설치 절차와 검증 범위](references/installation.md)
 
 ## 적용 범위와 제한
 

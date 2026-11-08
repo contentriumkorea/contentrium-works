@@ -2,7 +2,7 @@
 name: contentrium-works
 description: 직원 공동 프로젝트의 시작·진행·파일 저장·납품·기록·인계·보관·재개를 관리한다. 영상, 문서, 지원사업, 견적, 기획, 스토리보드, 개발 등 모든 요청에서 작업 관리 필요성을 먼저 검토한다. 명시적 호출 없이 적용하며, 단순 질의에는 파일 생성이나 정리를 강제하지 않는다.
 metadata:
-  version: 1.0.8
+  version: 1.0.9
 ---
 
 # Contentrium Works
